@@ -104,6 +104,17 @@ li {
 .window{
     width: 100%;
     height: 100vh;
+    display: block;
+}
+.window2{
+  width: 100%;
+    height: 100vh;
+    display: none;
+}
+.window3{
+width: 100%;
+    height: 100vh;
+    display: none;
 }
 @media screen and (max-width:600px) {
     .topbar{
