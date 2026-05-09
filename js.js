@@ -1,9 +1,6 @@
 var side = document.getElementById("sidebar");
 var open = document.getElementById("open");
 var close = document.getElementById("close");
-<<<<<<< HEAD
-side.style.width="0";
-=======
 var win = document.getElementById("window1");
 var win2 = document.getElementById("window2");
 var win3 = document.getElementById("window3");
@@ -28,7 +25,6 @@ function showpage3() {
   win3.style.display='block';
   side.style.width="0";
 }
->>>>>>> 13803950c0318b9b07f005c87759520feb6ee3ad
 open.onclick=function(){
     side.style.width="15rem";
 }
