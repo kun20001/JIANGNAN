@@ -5,6 +5,8 @@ var win = document.getElementById("window1");
 var win2 = document.getElementById("window2");
 var win3 = document.getElementById("window3");
 
+
+
 side.style.width="0";
 
 function showpage1() {
