@@ -5,22 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JIANG NAN</title>
     <link rel="stylesheet" href="css.css">
+    <link rel="website icon" href="https://avatars.githubusercontent.com/u/242735619?v=4&size=64">
 </head>
 <body>
     <div class="topbar">
-        <h1 class="open" id="open"">></h1>
+        <h1 class="open" id="open">></h1>
         <h1 class="tit">JIANG NAN </h1>
     </div>
     <div class="sidebar" id="sidebar">
         <h2 class="close" id="close">X</h2>
         <div class="nav">
-            <a class="nv" onclick="switchPage('pages/page1.html')" >首页</a>
-            <a class="nv" onclick="switchPage('pages/page2.html')" >关于</a>
-            <a class="nv" onclick="switchPage('pages/page3.html')" >联系</a>
+            <a class="nv" id="button1" onclick="showpage1()" >首页</a>
+            <a class="nv" id="button2" onclick="showpage2()" >关于</a>
+            <a class="nv" id="button3" onclick="showpage3()" >联系</a>
         </div>
     </div>
     <div>
         <iframe id="window1" class="window" src="pages/page1.html" frameborder="0"></iframe>
+        <iframe id="window2" class="window2" src="pages/page2.html" frameborder="0"></iframe>
+        <iframe id="window3" class="window3" src="pages/page3.html" frameborder="0"></iframe>
     </div>
 <script src="js.js"></script>    
 </body>
